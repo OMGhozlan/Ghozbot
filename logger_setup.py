@@ -1,9 +1,11 @@
-import os
 import json
+import logging
 import logging.config
+import os
 
 """Envrionment Variable LOG_CFG=my_logging.json python file.py """
 
+# class Logger:
 def setup_logging(default_path='logging_config.json', default_level=logging.INFO, env_key='LOG_CFG'):
 
 	"""
